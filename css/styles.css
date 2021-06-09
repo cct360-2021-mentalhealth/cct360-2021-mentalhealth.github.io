@@ -1,0 +1,552 @@
+html {
+  font-family: "Cabin", sans-serif;
+  background-color: #fff;
+}
+
+#logo {
+  width: 200px;
+  height: 50px;
+  float: left;
+}
+
+.banner-text {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #682F4C;
+  text-align: center;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+}
+
+.banner-text span a {
+  color: #fff;
+  font-size: 17.6px;
+}
+
+/* Navbar Styles BEGIN*/
+.navbar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-right: 1px solid #e4e2e2;
+  cursor: pointer;
+}
+
+.navbar a:hover {
+  color: #682F4C;
+}
+
+.navbar .subnav:hover {
+  border-top: 5px solid #b14e55;
+}
+
+.subnavbtn i {
+  font-size: 10px;
+  margin: 4px;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #682F4C;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  font-size: 12px;
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-self: end;
+  background-color: #081f2c;
+  width: 120px;
+  height: 50px;
+}
+
+.search p {
+  text-align: right;
+  padding-left: 1rem;
+  font-size: 17.6px;
+  color: #fff;
+}
+
+.search i {
+  display: inline;
+  line-height: 60px;
+  margin-left: auto;
+  padding-right: 1rem;
+  color: #fff;
+}
+
+/* Navbar Styles END*/
+
+
+
+/* Banner/Hero Image Styles BEGIN*/
+.hero {
+  background-image: url(../images/pexels-olga-1146242.jpg);
+  /* Photo by Olga from Pexels  - https://www.pexels.com/photo/woman-in-yellow-dress-standing-on-pink-petaled-flower-field-1146242/*/
+  background-position: 10% 100%;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.hero .bannerTitle {
+  font-family: 'Pattaya', sans-serif;
+  color: #081f2c;
+  font-size: 70px;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.hero .introPara {
+  background-color: #fff;
+  opacity: .6;
+  max-width: 500px;
+  background-position: center;
+  line-height: 1.7;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+/* Banner/Hero Image Styles END*/
+
+/* Icon Quicklinks Styles BEGIN*/
+.quicklinks {
+  width: 100%;
+  height: 400px;
+}
+
+.quicklinks .quicklinksPanels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quicklinksPanels .quicklinks-vertical-panel {
+  flex-direction: column;
+  height: 180px;
+  width: 180px;
+  margin: 80px;
+  background-color: #682F4C;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.quicklinksPanels .quicklinks-vertical-panel p {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  color: #081f2c;
+  width: 100%;
+}
+
+.quicklinksPanels .quicklinks-vertical-panel img {
+  width: 90%;
+  height: 90%;
+  margin: 12px;
+  color: #fff;
+}
+
+.quicklinksPanels .quicklinks-vertical-panel svg {
+  color: #fff;
+}
+
+.subTitleBlack {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+  color: #081f2c;
+}
+
+#centerText {
+  text-align: center;
+  line-height: 0;
+}
+
+.quicklinks p {
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Icon Quicklinks Styles END*/
+
+
+/* Search for Therapist Image Banner Styles BEGIN*/
+.searchTherapistLocation1 {
+  background-image: url(../images/pexels-cottonbro-4101143.jpg);
+  /*Photo by cottonbro from Pexels - https://www.pexels.com/photo/person-in-black-pants-and-black-shoes-sitting-on-brown-wooden-chair-4101143/*/
+  background-position: 30% -85%;
+  background-size: cover;
+  width: 100%;
+  height: 545px;
+}
+
+.searchTherapistLocation1 #subTitleBlackOnPicture {
+  color: #081f2c;
+  font-size: 70px;
+  padding-top: 2em;
+  text-align: center;
+  color: #081f2c;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.searchTherapistLocation1 .searchOverlay {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 70px;
+  text-align: center;
+}
+
+.searchTherapistLocation1 .searchOverlay form input {
+  width: 54.47%;
+  padding: 16px 14px;
+}
+
+.searchTherapistLocation1 .searchOverlay form span {
+  width: 50px;
+  position: absolute;
+  right: 310px;
+  top: 1235px;
+}
+
+/* Search for Therapist Image Banner Styles END*/
+
+
+/* 3 Panels Styles BEGIN*/
+.panels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.panels .vertical-panel {
+  flex-direction: column;
+  width: 30%;
+  height: 37.5em;
+  background-color: #E5FBFB;
+  margin: 1.7em;
+  border: 4px solid #682F4C;
+}
+
+.panels .vertical-panel img {
+  width: 100%;
+  text-align: center;
+}
+
+.panels .vertical-panel .panelText {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.panels .vertical-panel #panelTitle {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.panels .vertical-panel #panelContent {
+  padding-left: 1.5rem;
+  color: #081f2c;
+}
+
+.panels .vertical-panel #heightfix {
+  height: 240px;
+}
+
+.panels .vertical-panel #learnMore {
+  color: #682F4C;
+}
+
+/* 3 Panels Styles END*/
+
+
+/* Text and Image Section Styles BEGIN*/
+.ImageRightTextLeftContainer {
+  padding: 20px 40px 40px;
+  margin: 10px;
+  display: flex;
+}
+
+.ImageRightTextLeftContainer .containerImage {
+  margin: 20px 30px 0 0;
+  width: 200px;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.ImageRightTextLeftContainer .containerText {
+  flex: 1 1 auto;
+  width: 60%;
+}
+
+.ImageRightTextLeftContainer .containerText h2 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #081f2c;
+  width: 100%;
+}
+
+.imageRightTextLeftContainer img {
+  border: 3px solid #682F4C;
+}
+
+#learnMoreEconomic {
+  color: #682F4C;
+}
+
+/* Text and Image Section Styles END*/
+
+
+/* Footer Styles BEGIN*/
+footer {
+  margin-top: 60px;
+  padding: 50px 10px;
+  min-height: 285px;
+  font-size: 14px;
+  background-color: #081f2c;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1260px;
+  margin: auto;
+}
+
+#two {
+  display: flex;
+  width: 200%;
+  flex-direction: column;
+}
+
+#three {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#three ul {
+  list-style: none;
+}
+
+#three ul li {
+  padding: 1em;
+  font-size: 14px;
+}
+
+#three ul li a {
+  color: white;
+}
+
+#four {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#four ul {
+  list-style: none;
+}
+
+#four ul li {
+  padding: 1em;
+  font-size: 14px;
+}
+
+#four ul li a {
+  color: white;
+}
+
+#five .fa {
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+  font-size: 30px;
+  margin: 2%;
+  color: #081f2c;
+}
+
+#five {
+  display: block;
+  width: 70%;
+}
+
+#five a {
+  text-decoration: none;
+}
+
+#six {
+  width: 100%;
+  text-align: center;
+}
+
+#six img {
+  width: 100%;
+  text-align: center;
+}
+
+#seven {
+  width: 100%;
+  margin: 40px;
+}
+
+#seven a {
+  color: white;
+}
+
+#eight {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+#nine {
+  margin: 10px;
+}
+
+#nine a {
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: #081f2c;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#ten {
+  margin: 10px;
+}
+
+#ten a {
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: #081f2c;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#eleven {
+  margin: 10px;
+}
+
+#eleven a {
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: #081f2c;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#twelve {
+  font-size: 14px;
+  margin: 2rem;
+}
+
+#twelve ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+#twelve ul li {
+  border-right: 1px solid #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#twelve ul a {
+  color: #fff;
+}
+
+#twelve ul #removeBorder {
+  border-right: 1px solid #081f2c;
+}
+/* Footer Styles END*/

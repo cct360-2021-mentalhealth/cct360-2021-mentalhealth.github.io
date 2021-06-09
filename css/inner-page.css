@@ -1,0 +1,102 @@
+body {
+  background-color: #f3f2f2;
+}
+
+.hero-Inner-Page {
+  background-image: url(../images/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg);
+  /*Photo by Denys Nevozhai on Unsplash - https://unsplash.com/photos/z0nVqfrOqWA*/
+  background-position: 10% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+#InnerPage-WhoisEffected {
+  background-image: url(../images/pexels-fauxels-3184397.jpg);
+  /*Photo by fauxels from Pexels - https://www.pexels.com/photo/photo-of-people-s-hand-on-top-of-wooden-table-3184397/*/
+  background-position: 10% 40%;
+}
+
+.hero-Inner-Page .bannerTitle-Inner-Page {
+  font-family: 'Pattaya', sans-serif;
+  margin-bottom: 0;
+  text-transform: none;
+  font-size: 4.25em;
+  line-height: 1;
+  position: relative;
+  left: 10%;
+  top: 30%;
+  display: inline;
+}
+
+.hero-Inner-Page .introPara-Inner-Page {
+  max-width: 300px;
+  background-position: center;
+  position: relative;
+  min-height: 45px;
+  top: 120px;
+  left: 100px;
+  background-color: #fff;
+  text-align: center;
+  padding: 2px;
+}
+
+.hero-Inner-Page i {
+  position: relative;
+  top: 80px;
+  left: 370px;
+  color: #682F4C;
+}
+
+.mainContentContainer {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  margin: 1rem auto 0;
+  flex-wrap: nowrap;
+}
+
+.mainContentContainer .textContent {
+  background-color: #fff;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+.mainContentContainer .textContent h4 {
+  color: #682F4C;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.mainContentContainer .textContent h2 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #081f2c;
+  width: 100%;
+}
+
+.mainContentContainer .imageContent {
+  flex: 1 1 200%;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.mainContentContainer .imageContent .image img {
+  align-items: center;
+  width="100%";
+}
+
+#InnerPage-UppercaseTitle {
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
